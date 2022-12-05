@@ -1,0 +1,43 @@
+div {
+  text-align: center;
+  position: relative;
+  /* top:250px; */
+}
+.ul-container {
+  position: relative;
+  top: 300px;
+}
+
+span {
+  color: black;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+.backdrop {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #dae2f8, #d6a4a4);
+}
+.ts {
+  font-family: monospace;
+  color: whitesmoke;
+  margin: 5px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
